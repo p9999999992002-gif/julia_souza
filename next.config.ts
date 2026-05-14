@@ -1,8 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  turbopack: {
-    root: __dirname,
+  output: "export",
+  basePath: "/julia_souza",
+  assetPrefix: "/julia_souza/",
+  images: {
+    unoptimized: true,
   },
 };
 
