@@ -6,14 +6,12 @@ export default function Hero() {
       id="inicio"
       className="relative min-h-screen overflow-hidden bg-[#060810] px-6 pt-28"
     >
-      {/* Gradients atmosféricos */}
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute left-[15%] top-[10%] h-[500px] w-[500px] rounded-full bg-[#c8a96e]/10 blur-[180px]" />
         <div className="absolute right-[10%] top-[40%] h-[350px] w-[350px] rounded-full bg-[#1a2744]/60 blur-[140px]" />
         <div className="absolute bottom-0 left-0 h-[300px] w-full bg-gradient-to-t from-[#060810] to-transparent" />
       </div>
 
-      {/* Grain texture overlay */}
       <div
         className="pointer-events-none absolute inset-0 opacity-[0.025]"
         style={{
@@ -21,11 +19,9 @@ export default function Hero() {
         }}
       />
 
-      {/* Linha vertical decorativa */}
       <div className="pointer-events-none absolute bottom-0 left-[max(2rem,calc(50%-42rem))] top-0 w-px bg-gradient-to-b from-transparent via-[#c8a96e]/20 to-transparent" />
 
       <div className="relative mx-auto grid max-w-7xl items-end gap-12 pb-0 pt-16 md:grid-cols-[1fr_420px] md:items-center md:gap-20">
-        {/* Texto */}
         <div className="order-2 pb-12 md:order-1 md:pb-0">
           <div className="mb-8 flex items-center gap-4">
             <div className="h-px w-10 bg-[#c8a96e]/60" />
@@ -66,7 +62,6 @@ export default function Hero() {
             </a>
           </div>
 
-          {/* Stats */}
           <div className="mt-16 flex gap-10 border-t border-white/8 pt-10">
             {[
               { num: "8+", label: "Anos de atuação" },
@@ -85,25 +80,21 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Imagem */}
         <div className="order-1 md:order-2">
           <div className="relative">
-            {/* Borda decorativa deslocada */}
             <div className="absolute -right-3 -top-3 h-full w-full border border-[#c8a96e]/20" />
             <div className="relative overflow-hidden bg-[#0e1320]">
               <div className="relative h-[580px] w-full md:h-[680px]">
                 <Image
-                  src="/julia.jpg"
+                  src="/julia_souza/julia.jpg"
                   alt="Julia Souza — Advogada Trabalhista"
                   fill
                   priority
                   className="object-cover object-top grayscale-[15%]"
                 />
-                {/* Gradient inferior na imagem */}
                 <div className="absolute inset-x-0 bottom-0 h-48 bg-gradient-to-t from-[#060810]/80 to-transparent" />
               </div>
 
-              {/* Tag flutuante */}
               <div className="absolute bottom-0 left-0 right-0 p-6">
                 <div className="border border-white/10 bg-[#060810]/80 px-5 py-4 backdrop-blur-xl">
                   <p className="text-[9px] uppercase tracking-[0.5em] text-[#c8a96e]">
