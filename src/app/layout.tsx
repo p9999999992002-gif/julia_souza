@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Julia Souza - Advocacia Trabalhista",
-  description: "Defesa dos direitos trabalhistas com excelência, discrição e comprometimento real com cada cliente.",
+  description:
+    "Defesa dos direitos trabalhistas com excelência, discrição e comprometimento real com cada cliente.",
 };
 
 export default function RootLayout({
@@ -23,7 +24,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html
+      lang="pt-BR"
+      className={`${geistSans.variable} ${geistMono.variable}`}
+    >
       <body>{children}</body>
     </html>
   );
