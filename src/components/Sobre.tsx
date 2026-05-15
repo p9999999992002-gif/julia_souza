@@ -69,7 +69,7 @@ export default function Sobre() {
               <div className="relative overflow-hidden">
                 <div className="relative h-[620px] w-full">
                   <Image
-                    src="../../public/julia.jpg"
+                    src="./julia_souza/julia.jpg"
                     alt="Julia Souza — Advogada Trabalhista"
                     fill
                     className="object-cover object-top grayscale-[20%]"
