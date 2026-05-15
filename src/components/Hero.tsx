@@ -86,7 +86,7 @@ export default function Hero() {
             <div className="relative overflow-hidden bg-[#0e1320]">
               <div className="relative h-[580px] w-full md:h-[680px]">
                 <Image
-                  src="./julia_souza/julia.jpg"
+                  src="/julia_souza/julia.jpg"
                   alt="Julia Souza — Advogada Trabalhista"
                   fill
                   priority
