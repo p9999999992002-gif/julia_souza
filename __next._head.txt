@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[16492,["/julia_souza/_next/static/chunks/0ri5yavdgqyc_.js","/julia_souza/_next/static/chunks/08f7k3lt9brm_.js"],"ViewportBoundary"]
+3:I[16492,["/julia_souza/_next/static/chunks/0ri5yavdgqyc_.js","/julia_souza/_next/static/chunks/08f7k3lt9brm_.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+5:I[54100,["/julia_souza/_next/static/chunks/0ri5yavdgqyc_.js","/julia_souza/_next/static/chunks/08f7k3lt9brm_.js"],"IconMark"]
+0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Julia Souza - Advocacia Trabalhista"}],["$","meta","1",{"name":"description","content":"Defesa dos direitos trabalhistas com excelência, discrição e comprometimento real com cada cliente."}],["$","link","2",{"rel":"icon","href":"/julia_souza/favicon.ico?favicon.04qbm1mp5esct.ico","sizes":"474x474","type":"image/x-icon"}],["$","$L5","3",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"lB8yO1xLopVyXoxfGg0uZ"}
