@@ -75,8 +75,8 @@ export default function Sobre() {
                     className="object-cover object-top grayscale-[20%]"
                     priority
                   />
-                  {/* Overlay sutil */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#060810]/60 via-transparent to-transparent" />
+                  {/* Overlay mais suave */}
+                  <div className="absolute inset-0 bg-black/20" />
                 </div>
 
                 {/* Badge de credencial */}
